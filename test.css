@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 120px;
+    height: 3px;
+    background-color: black;
+}
