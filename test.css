@@ -1,11 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container {
+    height: 80vh;
+    border: 1px solid black;
 }
-
-.line {
-    width: 120px;
-    height: 3px;
-    background-color: black;
+nav {
+    height: 10vh;
+}
+nav > ul {
+    list-style: none;
+}
+nav > ul > li {
+    display: inline-block;
 }

@@ -4,60 +4,123 @@
     <meta charset="utf-8" />
     <title> James Duong.</title>
     <!-- this is the code that will allow icon to be visible in the title bar of the brower -->
-    <link rel="icon" type="image/ico" href="resources/code.png"/>
+    <!-- <link rel="icon" type="image/ico" href="resources/code.png"/> -->
+    <link rel="icon" type="image/ico" href="resources/logo.png"/>
+    <!-- link to bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="resources/normalize.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="test2.css"/>
 </head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="resources/logo.png" id="logo" alt="logo image" height=40px width=40px></li>
+            <li><a href="home.html" class="cool-link">Home</a></li> 
+            <li><a href="about.html" class="cool-link">About Me</a></li>
+            <li><a href="work.html" class="cool-link">Work</a></li>
+            <li><a href="contact.html" class="cool-link">Contact</a></li>
+        </ul>
+    </nav>    
 
 <div class="container">
     <div class="banner">
-        <h1 class="bold">J A M E S &nbsp; D U O N G</h1>
-        <h2 class="fancy">aspiring full-stack developer.</h2>
+        <!-- <h1 class="bold">J A M E S &nbsp; D U O N G</h1> -->
+        <h1 class="bold"><span style="color: #E7E5E5">James Duong</span></h1>
+        <p> <span style="color: white">_________</span></p>
+        <h2 class="fancy">junior full-stack developer.</h2>
     </div>
-    <nav>   
-        <!-- <a href="index.html"><img src= "resources/code.png"></a> -->
-        <a href="#" class="one">Work</a>
-        <a href="#" class="two">About</a>
-        <a href="#"class="three">Contact</a>
-        <!-- <div class="line"></div> -->
-    </nav>    
 </div>
+<!-- about me page -->
+<!-- <section id= "About Me"> -->
+        <div class="content">
+                    <div class="aboutme">
+                    <h1>About Me</h1>
+                    <p>Hi, welcome to my first website! A little about me...I've recently returned from a year of travelling around South Easy Asia, collecting many memories and crossing off many bucklet items!</p>
+                    <p>Returning home, I decided to switch from the finance industry to the tech industry. I am now embarking on the path to a full-stack web developer. I think the dream would be a travelling digital nomad.
+                    </p>
+                    </div>
 
-<!-- </header> -->
-<!-- 
+                <!-- picture scroll section -->
+                    <!-- <div id="pictureScroll">
+                        <img src="resources/1.jpg" alt="" width=100px height=100px>   
+                    </div>
+                    <div>
+                        <img src="resources/4.jpg" alt="" width=100px height=100px>
+                    </div>
+                    <div>
+                        <img src="resources/3.jpg" alt="" width=100px height=100px>
+                    </div> -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <!-- <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                              <li data-target="#myCarousel" data-slide-to="3"></li>
+                              <li data-target="#myCarousel" data-slide-to="4"></li>
+                              <li data-target="#myCarousel" data-slide-to="5"></li>
+                            </ol> -->
+                          
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="resources/album/1.jpg" alt="trekking pic ">
+                                </div>
+                                <div class="item">
+                                    <img src="resources/album/2.jpg" alt="Cave Pic">
+                                </div>
+                                <div class="item">
+                                    <img src="resources/album/3.jpg" alt="Halong Bay Pic">
+                                </div>
+                                <div class="item">
+                                    <img src="resources/album/4.jpg" alt="Mountain Peak Pic">
+                                </div>
+                                <div class="item">
+                                    <img src="resources/album/5.jpg" alt="Mountain Peak Pic 2">
+                                </div>
+                                <div class="item">
+                                    <img src="resources/album/6.jpg" alt="Motorbike Pic">
+                                </div>                                                                            
+                            </div>
+                          
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+        </div>
+<!-- </section>  -->
+<!-- skills & education page -->
+<section class="experience">
+Education 
+Diploma of IT - Academy of Information Technology (currently studying)
+Bachelor of Business - Unversity of Technology, Sydney (graduated in 15)
+
+Work Experience
+Analyst - National Australia Bank 
+Adviser Administration - National Australia Bank
+
+</section>
+<!-- contact me page -->
 <section>
-
-
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci quaerat illum in delectus, aut, praesentium, veritatis explicabo cumque magni asperiores deserunt corrupti molestias odit fugiat amet libero? Vero, unde!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum odio minus veritatis dolor qui, voluptas minima officia quod recusandae saepe maiores cupiditate adipisci? Architecto quaerat laboriosam dolores, sequi labore necessitatibus.</p>
-    </div>
-</section> -->
-
+    
+</section>
+</body>
 </html>
+
+<!-- credit -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->

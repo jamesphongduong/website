@@ -1,59 +1,111 @@
 /* importing fonts */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300i|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Jura');
 
 html {
-    background-image: url("resources/pattern.png")
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 10vh;
+    text-align: center;
 }
-.container {
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("resources/bg2.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
     border: 1px solid black;
     align-items: center;
+    height: 80vh;
 }
 .container > div.banner { 
-    border: 5px solid black;
-}
-/* have to call display flex again in child class */
-.container > nav {
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 a {
-    padding: 0px 20px;
-    text-decoration: none;
+    text-decoration: none; 
+    color: black;
 }
+li {
+    padding: 0px 25px;
+}
+a:visited {
+    color: #DDC9B4;
+}
+a:hover {
+    color: #AFB2B4;
+}
+
 .bold {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0px;
+    font-family: 'Jura', sans-serif;
     font-size: 60px;
+}
+.banner > p {
+    margin: 0px;
 }
 .fancy {
     font-family: 'Josefin Slab', serif;
-    font-weight: 300;
     font-size: 20px;
-    text-align: center;
+    /* color: #DDC9B4; */
+    color: #F5F1ED;
 }
-.two:hover ~ hr {
-    margin-left: 25%;
+  /* this is already displayed, just hidden cuz of settings, transition time is the time it takes after hover is done*/
+  .cool-link::after {
+      content: '';
+      display: block;
+      width: 0px;
+      height: 2px;
+      background: black;
+      transition: width 0.3s;
   }
-  
-  .three:hover ~ hr {
-    margin-left: 50%;
+  /* hover action */
+  .cool-link:hover::after {
+      width: 100%;
+      transition: width 0.3s;
   }
-  
-  .four:hover ~ hr {
-    margin-left: 75%;
-  }
-  
-  hr {
-    height: .25rem;
-    width: 25%;
-    margin: 0;
-    background: tomato;
-    border: none;
-    transition: .3s ease-in-out;
-  }
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: white;
+    height: 10vh;
+}
+#logo {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.aboutme > p {
+    width: 100%;
+}
+.carousel-inner {
+    margin: 10vh 0;
+}
+.experience{
+
+}
+
+  /* 
+Photo by Anthony Intraversato on Unsplash */
+/* https://unsplash.com/photos/vYRAP3yMa3I */
+/* https://unsplash.com/photos/j1MZ8SMDzv8 */
+
+/* logo 
+<a href='https://www.freepik.com/free-vector/illustration-of-business-concept_2687450.htm'>Designed by Rawpixel.com</a> */
+
+::-webkit-meter-even-less-good-value<a href='https://www.freepik.com/free-vector/web-mobile-icons-collection_864846.htm'>Designed by Ibrandify</a>
+
