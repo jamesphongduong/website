@@ -1,9 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css?family=Nunito+Sans'); */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
 html {
-    font-family: 'Nunito Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
 }
 nav {
     position: fixed;
@@ -43,7 +45,7 @@ section {
 .container {
     padding-top: 10vh;
     /* height: 100vh; */
-    background-color: grey;
+    /* background-color: grey; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +111,7 @@ h2 {
     padding: 0;
 }
 .content {
-    background-color: black;
+    /* background-color: black; */
 }
 .aboutme {
     margin: auto 3vh;
@@ -119,18 +121,20 @@ h2 {
     position: relative;
     top: -20vh;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .experience {
     margin: auto 4vh;
     padding: 1vh;
     position: relative;
-    top: -23vh;
+    top: -5vh;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .projects {
     position: relative;
-    top: -25vh;
-    background-color: black; 
+    top: -10vh;
+    background-color:
 }
 /* a:visited {
     color: #C9C1B4;
@@ -183,4 +187,9 @@ ul {
 }
 #id {
     /* font-family: 'Work Sans', sans-serif; */
+}
+#dp {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
 }
