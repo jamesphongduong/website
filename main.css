@@ -133,7 +133,7 @@ h2 {
 }
 .projects {
     position: relative;
-    top: -15vh;
+    top: -4vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1vh;
     margin: auto 4vh;
@@ -141,7 +141,7 @@ h2 {
 #footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1vh;
-    margin: -10vh 4vh;
+    margin: 0vh 4vh;
 }
 /* a:visited {
     color: #C9C1B4;
