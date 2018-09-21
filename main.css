@@ -133,8 +133,15 @@ h2 {
 }
 .projects {
     position: relative;
-    top: -10vh;
-    background-color:
+    top: -15vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1vh;
+    margin: auto 4vh;
+}
+#footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1vh;
+    margin: -10vh 4vh;
 }
 /* a:visited {
     color: #C9C1B4;
@@ -167,7 +174,7 @@ a:hover {
 }
 #projects {
     position: relative;
-    top: -10vh;
+    top: 0vh;
 }
 #myCarousel {
     position: relative;
@@ -184,9 +191,6 @@ ul {
 .skillimg {
     height: 5vh;
     width: 5vh;
-}
-#id {
-    /* font-family: 'Work Sans', sans-serif; */
 }
 #dp {
     height: 30vh;
