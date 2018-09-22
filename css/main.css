@@ -40,16 +40,14 @@ nav ul a {
 
 /* SOCIAL MEDIA ICONS */
 .iconimg {
-  height: 10vh;
-  width: 10vh;
-}
-
-section {
-  height: 100vh;
+  height: 5vh;
+  width: 5vh;
 }
 
 /* BANNER */
-.container {
+.banner {
+  width: 100%;
+  height: 50vh;
   padding-top: 10vh;
   display: flex;
   flex-direction: column;
@@ -60,7 +58,7 @@ section {
   background-size: cover;
   color: white;
 }
-.container h1 {
+.banner h1 {
   margin: 0px;
 }
 
@@ -69,7 +67,6 @@ section {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  width: 100%;
   padding: 0;
 }
 .icons li {
@@ -106,32 +103,49 @@ section {
   margin: auto 4vh;
   padding: 2vh;
   position: relative;
-  top: -20vh;
+  top: -8vh;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: -8vh;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  position: relative;
+  top: 0vh;
+}
+.album img {
+  height: 22vh;
+  width: 22vh;
+  padding: 2vh;
+  border-radius: 2vh;
+  margin: 1vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .experience {
   margin: auto 4vh;
   padding: 1vh;
-  position: relative;
-  top: -5vh;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects {
   margin: auto 4vh;
-  position: relative;
-  top: 4vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1vh;
 }
 
-#footer {
+.footer {
+  margin: auto 4vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1vh;
-  margin: 9vh 4vh;
+}
+
+.sec {
+  margin-top: 2vh;
 }
 
 /* a:visited {
@@ -168,12 +182,12 @@ a:hover {
 
 #aboutme {
   position: relative;
-  top: -31vh;
+  top: -28vh;
 }
 
 #experience {
   position: relative;
-  top: -16vh;
+  top: -11vh;
 }
 
 #projects {
@@ -181,18 +195,57 @@ a:hover {
   top: 0vh;
 }
 
-#myCarousel {
-  position: relative;
-  top: -15vh;
-  height: 35vh;
-  width: 100%;
-}
-
 /* MEDIA QUERIES */
-/* IPAD */
-@media only screen and (min-width: 600px) {
-  .projects {
-    margin-top: -30vh;
+/* TABLET 768 */
+@media only screen and (min-width: 768px) {
+  .sec {
+    margin: 4vh 10vh;
+  }
+
+  .album {
+    grid-template-columns: 1fr 1fr;
+  }
+  .album img {
+    height: 30vh;
+    width: 30vh;
+  }
+
+  .aboutme {
+    position: relative;
+    top: -10vh;
+    margin-bottom: -5vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .sec {
+    margin: 4vh 15vh;
+  }
+
+  .album {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 3vh;
+  }
+
+  .aboutme {
+    margin-bottom: -10vh;
+  }
+
+  #projects {
+    top: -12vh;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .sec {
+    margin: 8vh 40vh;
+  }
+
+  .album {
+    grid-row-gap: 10vh;
+  }
+
+  .aboutme {
+    top: -15vh;
+    margin-bottom: -15vh;
   }
 }
 

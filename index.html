@@ -5,13 +5,6 @@
     <title> James Duong.</title>
     <!-- this is thes code that will allow icon to be visible in the title bar of the brower -->
     <link rel="icon" type="image/ico" href="resources/logo.png"/>
-            <!-- link to bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="normalize.css"/>
@@ -30,7 +23,7 @@
         </ul>
     </nav>    
     <!-- home page content -->
-<section class="container">
+<section class="banner">
     <div id="index"></div>
         <h1 class="bold" style="color: white">J a m e s &nbsp; D u o n g</h1>
         <p style="color: white">_____</p>
@@ -50,78 +43,47 @@
 <!-- about me section -->
 <section class="content">
     <div id="aboutme"></div>
-    <div class="aboutme">
+    <div class="aboutme sec">
     <h2>About Me</h2>
     <p>___</p>
     <p>Hi, welcome to my website! I am currently studying a 6 month coding bootcamp in Sydney, Australia. I am passionate about Tech as it has the ability to revolutionize our world's future.  </p>
     <p> I recently did a 1 year trip travelling around South-East Asia and now have the travel bug! I strongly believe experiencing new countries and cultures builds your character in a way nothing else can :) 
     </p>
-    <img id="dp" src="resources/dp.jpg" alt="">
+    <img id="dp" src="resources/dp.jpg" alt="profile picture">
     </div>
 
     <br>
-
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-              <li data-target="#myCarousel" data-slide-to="3"></li>
-              <li data-target="#myCarousel" data-slide-to="4"></li>
-              <li data-target="#myCarousel" data-slide-to="5"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="resources/album/1.jpg" alt="trekking pic ">
-                </div>
-                <div class="item">
-                    <img src="resources/album/2.jpg" alt="Cave Pic">
-                </div>
-                <div class="item">
-                    <img src="resources/album/3.jpg" alt="Halong Bay Pic">
-                </div>
-                <div class="item">
-                    <img src="resources/album/4.jpg" alt="Mountain Peak Pic">
-                </div>
-                <div class="item">
-                    <img src="resources/album/5.jpg" alt="Mountain Peak Pic 2">
-                </div>
-                <div class="item">
-                    <img src="resources/album/6.jpg" alt="Motorbike Pic">
-                </div>                                                                            
-            </div>       
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <span class="sr-only">Next</span>
-            </a>
+    <h3>Photos from last trip (Vietnam)</h3>
+    
+    <div class="album">
+    <img src="resources/album/1.jpg" alt="Vietnam trip photo">
+    <img src="resources/album/2.jpg" alt="Vietnam trip photo">
+    <img src="resources/album/3.jpg" alt="Vietnam trip photo">
+    <img src="resources/album/4.jpg" alt="Vietnam trip photo">
+    <img src="resources/album/5.jpg" alt="Vietnam trip photo">
+    <img src="resources/album/6.jpg" alt="Vietnam trip photo">
     </div>
 </section>
 <!-- </section>  -->
 <!-- skills & education page -->
 <section>
 <div id="experience"></div>
-<div class="experience">
+<div class="experience sec">
 <h2>Experience</h2> 
 <p>___</p>
     <!-- skills div -->
     <div class="skills">
         <h3>Skills</h3>
         <ul class="skillul">
-            <li class="skillimg"> <img src="resources/icons/ruby.svg" alt=""></li>
-            <li class="skillimg"> <img src="resources/icons/html5.svg" alt=""></li>
-            <li class="skillimg"> <img src="resources/icons/css.svg" alt=""></li>
+            <li class="skillimg"> <img src="resources/icons/ruby.svg" alt="Ruby Icon"></li>
+            <li class="skillimg"> <img src="resources/icons/html5.svg" alt="HTML5 Icon"></li>
+            <li class="skillimg"> <img src="resources/icons/css.svg" alt="CSS Icon"></li>
         </ul>
     </div>
+    <br>
     <!-- Education Div -->
-    <div class="test">
-        <h3> <img src="resources/icons/education.svg" alt="" class="hImages"> Education</h3>
+    <div class>
+        <h3> <img src="resources/icons/education.svg" alt="education icon" class="hImages"> Education</h3>
         <ul>
             <li>Diploma of IT <br> Academy of Information Technology (current)</li>
             <li>___</li>
@@ -133,7 +95,7 @@
     <br>
     <!-- Work Div -->
     <div class="test">
-        <h3> <img src="resources/icons/career.svg" alt="" class="hImages">Career</h3>
+        <h3> <img src="resources/icons/career.svg" alt="career icon" class="hImages">Career</h3>
         <ul>
             <li>Analyst, Client Succession <br> National Australia Bank (2016 - 17) </li>
             <li>___</li>
@@ -145,8 +107,8 @@
 
 <!-- projects section -->
 <div id="projects"></div>
-<div class="projects">
-    <h2> <img src="resources/icons/projects.svg" alt="" class="hImages">Projects</h2>
+<div class="projects sec">
+    <h2> <img src="resources/icons/projects.svg" alt="project icon" class="hImages">Projects</h2>
     <p>___</p>
     <!-- <img src="resources/project/5.png" alt=""/>
     <img src="resources/project/1.png" alt=""/>
@@ -158,7 +120,7 @@
     </video>
 </div>
 
-<footer id="footer" >
+<footer class="footer sec" >
         <p>♥ Thanks for viewing <p>
         <p>&#169; James Duong 2018 <p>
 </footer>
