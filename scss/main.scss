@@ -1,7 +1,16 @@
     @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700');
 
     $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     $margin-section: auto 4vh;
+    $grey: grey;
+    $white: white;
+
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transition: transform .2s;
+    }
+
     /* GENERAL STYLES */
     body {
         font-family: 'Nunito Sans', sans-serif;
@@ -12,9 +21,22 @@
         list-style: none;
         padding: 0px;
     }
+    .name { 
+        font-family: 'Playfair Display SC', serif;
+        letter-spacing: 4px;
+    }
     .hImages {
         height: 10vh;
         width: 10vh;
+    }
+    .white {
+        color: $white;
+    }
+    .grey {
+        color: $grey;
+    }
+    .italic {
+        font-style: italic;
     }
     /* NAV BAR */
     nav {
@@ -59,7 +81,10 @@
             h1  {
                 margin: 0px;
             }
-        }
+                h4, p {
+                    margin-top: 0px;
+                }
+            }
         .icons {
             display: flex;
             flex-direction: row;   
@@ -68,7 +93,7 @@
             padding: 0;
                 li {
                     padding: 20px;
-                }
+                }   
             }   
     /* DISPLAY PICTURE */
     #dp {

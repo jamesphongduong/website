@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:700");
+.zoom:hover {
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: transform 0.2s;
+}
+
 /* GENERAL STYLES */
 body {
   font-family: "Nunito Sans", sans-serif;
@@ -11,9 +18,26 @@ ul {
   padding: 0px;
 }
 
+.name {
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 4px;
+}
+
 .hImages {
   height: 10vh;
   width: 10vh;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* NAV BAR */
@@ -60,6 +84,9 @@ nav ul a {
 }
 .banner h1 {
   margin: 0px;
+}
+.banner h4, .banner p {
+  margin-top: 0px;
 }
 
 .icons {
