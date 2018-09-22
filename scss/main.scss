@@ -10,7 +10,9 @@
         transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
         transition: transform .2s;
     }
-
+    #contact {
+        font-size: 80%;
+    }
     /* GENERAL STYLES */
     body {
         font-family: 'Nunito Sans', sans-serif;
@@ -140,7 +142,7 @@
                 height: 22vh;
                 width: 22vh;
                 padding: 2vh;
-                border-radius: 2vh;
+                border-radius: 10%;
                 margin: 1vh;
                 box-shadow: $box-shadow;
             }
@@ -222,6 +224,9 @@
             position: relative;
             top: -10vh;
             margin-bottom: -5vh;
+        }
+        body {
+            font-size: 110%;
         }
     }
     @media only screen and (min-width: 1024px) {

@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC:700");
 .zoom:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   transition: transform 0.2s;
+}
+
+#contact {
+  font-size: 80%;
 }
 
 /* GENERAL STYLES */
@@ -147,7 +151,7 @@ nav ul a {
   height: 22vh;
   width: 22vh;
   padding: 2vh;
-  border-radius: 2vh;
+  border-radius: 10%;
   margin: 1vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -241,6 +245,10 @@ a:hover {
     position: relative;
     top: -10vh;
     margin-bottom: -5vh;
+  }
+
+  body {
+    font-size: 110%;
   }
 }
 @media only screen and (min-width: 1024px) {
