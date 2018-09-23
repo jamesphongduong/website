@@ -1,34 +1,34 @@
-# Portfolio Website
+#Alt-Portfolio Website
 
-Portfolio Website: (https://jamesphongduong.github.io/website/)  
-GitHub Repo: (https://github.com/jamesphongduong/website)
+[Portfolio Website](https://jamesphongduong.github.io/website/)  
+[GitHub Repo](https://github.com/jamesphongduong/website)
 
-## Description of website
+##Alt-Description of website
 The purpose of my portfolio website is primarily for personal branding, a platform where I am able to showcase my personal identity and skills to potential employers. The website has simple functionality, with a navigation bar to help access parts of the website. It contains photos, a video, plugs to social media and personal contact information. I used HTML5, CSS3, SCSS and Flexbox and CSS Grid to create this website.  
 
-### Sitemap
+###Alt-Sitemap
 ![sitemap image](docs/sitemap.svg)
 
-###How it looks on phone, tablet, and laptop
-![website on iphone 6]  (docs/iphone6)
-![website onipad image] (docs/ipad)
-![website on laptop image] (docs/laptop)
+###Alt-How it looks on different devices
+![website on iphone 6](docs/iphone6)
+![website onipad image](docs/ipad)
+![website on laptop image](docs/laptop)
 
-## Design Documentation
-### Design process
-![image of inspiration website idea] (docs/inspiration)
-![image of pinterest mood board] (docs/pinterest)
-I viewed https://www.awwwards.com/ and reddit to help find website inspiration and ideas. As this was my first website, I wanted to make a simple website that had the right balance between applying what I’d learnt in class and also challenging myself and implementing ideas outside of the classroom. 
-I used Pinterest to make mood boards, color boards and inspirational boards. I also used Trello to break the project plan into blocks, and placing priority value on each activity. 
+##Alt-Design Documentation
+###Alt-Design process
+![image of inspiration website idea](docs/inspiration)
+![image of pinterest mood board](docs/pinterest)
+I viewed https://www.awwwards.com/ and Pinterest to help find website inspiration and ideas. As this was my first website, I wanted to make a simple website that had the right balance between applying what I’d learnt in class and also challenging myself to implementing ideas outside of the classroom. 
+I used Pinterest to make a board that included color and layout ideas. I also used Trello to break the project plan into blocks,placing priority value on each activity. 
 
 Logical navigation was implemented with minimal layout. Lots of white-spacing was used and font size is increased if the device has gone past tablet size to help readability. 
 All images were labelled with alternate text with a clear image description. 
 Personal Logo was selected from a “free icon provider” website. 
 
-### Wireframes
-![image of wireframe] (docs/wireframe.png)
+###Alt-Wireframes
+![image of wireframe](docs/wireframe.png)
 
-### Project Plan and Timeline 
+###Alt-Project Plan and Timeline 
 Day 1
 Brainstorm, look for inspiration, decide on theme,color palette and layout
 Day 2
@@ -42,11 +42,11 @@ Finish the mobile design (HTML and CSS component). Use SASS while cleaning up co
 Day 6 
 Establish responsiveness to website by implementing media queries. Add “extras” to website such as touching up color and fancy effects. Finish documentation and prepare for presentation. 
 
-###Trello Board
-![image of Trello Board] (docs/trello)
+###Alt-Trello Board
+![image of Trello Board](docs/trello)
 
-## Q & A
-### Describe key events in the development of the internet from the 1980s to today
+##Alt-Q & A
+###Alt-Describe key events in the development of the internet from the 1980s to today
 1980s - Dave Farber, professor of Computer Science opened a project to build an inexpensive network using dial-up phones. This project expanded internet access and allowed for email communication between several nations. 
 
 1990s - Tim Berners-Lee and his colleagues at CERN (European Organization for Nuclear Research) established HTML (Hypertext Markup Language) and the URL (Uniform Resources Locator) opening the introduction of the World Wide Web.
@@ -57,7 +57,7 @@ Establish responsiveness to website by implementing media queries. Add “extras
 
 2012 - SOPA (Stop Online Piracy Act) and PIPA (Protect IP Act) were bills introduced in the US Congress, with the intention to provide more robust responses to copyright infringement. More than 115,000 websites joined together to protest against the bills. 
 
-### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+###Alt-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers 
 
 A web browser is a software application that allows us to access information on the World Wide Web. Common examples are Google Chrome, Firefox and Internet Explorer. 
 
@@ -69,7 +69,7 @@ A DNS (Domain Name Server) is the internet’s version of a phone book. They mai
 
 In a practical context, when we search for a web address, our ISP (Internet Service Provider) views the DNS associated with the domain name, and translates it into a computer friendly IP address, allowing us to direct to the intended website.  
 
-### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
 
 It is predicted that by 2020, Artificial Intelligent (AI) could be completely operating warehouse logistics. This disruptive technology has the ability to revolutionise the way our current industries are run today, from automating human jobs and increasing business operation efficiency. 
 
