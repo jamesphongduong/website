@@ -26,7 +26,7 @@ All images were labelled with alternate text with a clear image description for 
 Personal Logo was created from a “free icon provider” website. 
 
 ### Wireframes
-![image of wireframe](docs/wireframe.png)
+![image of wireframe](docs/Wireframe.png)
 
 ### Project Plan and Timeline 
 Day 1
