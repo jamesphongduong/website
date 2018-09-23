@@ -6,13 +6,6 @@
     $grey: grey;
     $white: white;
 
-    .zoom:hover {
-        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        transition: transform .2s;
-    }
-    #contact {
-        font-size: 80%;
-    }
     /* GENERAL STYLES */
     body {
         font-family: 'Nunito Sans', sans-serif;
@@ -61,7 +54,6 @@
                 }
             }
         }
-
     /* SOCIAL MEDIA ICONS */
     .iconimg {
         height: 5vh;
@@ -86,6 +78,9 @@
                 h4, p {
                     margin-top: 0px;
                 }
+            }
+        #contact {
+                font-size: 80%;
             }
         .icons {
             display: flex;
@@ -166,9 +161,6 @@
     .sec { 
         margin-top: 2vh;
     }
-    /* a:visited {
-        color: #C9C1B4;
-    } */
     /* HOVER EFFECT FOR NAVBAR */
     a:hover {
         color: grey;
@@ -187,6 +179,11 @@
     .cool-link:hover::after {
         width: 100%;
         transition: width 0.3s;
+    }
+    // hover for images
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        transition: transform .2s;
     }
     /* ANCHOR TAGS -- CHEATS */
     #index {
