@@ -29,17 +29,22 @@ Personal Logo was created from a “free icon provider” website.
 ![image of wireframe](docs/Wireframe.png)
 
 ### Project Plan and Timeline 
-Day 1
-Brainstorm, look for inspiration, decide on theme,color palette and layout
-Day 2
+Day 1  
+Brainstorm, look for inspiration, decide on theme,color palette and layout  
+
+Day 2  
 Start wireframe process for Mobile Design, laying out all elements 
-Day 3 
+
+Day 3  
 Start coding HTML with the content I want on my website, and collect photos and icons 
-Day 4
+
+Day 4  
 Start coding CSS and styling elements 
-Day 5 
+
+Day 5  
 Finish the mobile design (HTML and CSS component). Use SASS while cleaning up code.
-Day 6 
+
+Day 6  
 Establish responsiveness to website by implementing media queries. Add “extras” to website such as touching up color and animation effects. Finish documentation and prepare for presentation. 
 
 ### Trello Board
