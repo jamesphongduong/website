@@ -1,13 +1,13 @@
 # Portfolio Website
 
-[Portfolio Website] (https://jamesphongduong.github.io/website/)
-[GitHub Repo] (https://github.com/jamesphongduong/website)
+Portfolio Website: (https://jamesphongduong.github.io/website/)  
+GitHub Repo: (https://github.com/jamesphongduong/website)
 
 ## Description of website
-The purpose of my portfolio website is primarily for personal branding, a platform where I am able to showcase my personal identity and skills to potential employers. It has simple functionality, where the website is only one page, where the viewer is able to switch to parts of the website via the navigation bar. It has photos, a video, plugs to social media and contact information. I used HTML5, CSS3, SCSS and Flexbox and CSS Grid to create this website.  
+The purpose of my portfolio website is primarily for personal branding, a platform where I am able to showcase my personal identity and skills to potential employers. The website has simple functionality, with a navigation bar to help access parts of the website. It contains photos, a video, plugs to social media and personal contact information. I used HTML5, CSS3, SCSS and Flexbox and CSS Grid to create this website.  
 
 ### Sitemap
-![sitemap image] (docs/sitemap.svg)
+![sitemap image](docs/sitemap.svg)
 
 ###How it looks on phone, tablet, and laptop
 ![website on iphone 6]  (docs/iphone6)
