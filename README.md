@@ -1,6 +1,6 @@
 # Portfolio Website
 [Portfolio Website](https://jamesphongduong.github.io/website/)  
-[GitHub Repo](https://github.com/jamesphongduong/website)
+[Portfolio GitHub Repo](https://github.com/jamesphongduong/website)
 
 ## Description of website
 The objective of my portfolio website is primarily for personal branding, a platform where I am able to showcase my personal identity and skills to potential employers. The website has simple functionality, with a navigation bar to help access different parts of the website. It contains photos, a video, plugs to social media and personal contact information. I used HTML5, CSS3, SCSS, Flexbox and CSS Grid to create this website. 
@@ -20,9 +20,10 @@ The objective of my portfolio website is primarily for personal branding, a plat
 I viewed https://www.awwwards.com/ and Pinterest to help find website inspiration and ideas. As this was my first website, I wanted to make a simple website that had the right balance between applying what I’d learnt in class and also challenging myself to implementing ideas outside of the classroom. 
 I used Pinterest to make a board for color and layout ideas. I also used Trello to break the project plan into blocks, placing priority value on each activity. 
 
-Logical navigation was implemented with minimal layout. Lots of white-spacing was used and font size is increased if the device has gone past tablet size to help readability. 
-All images were labelled with alternate text with a clear image description. 
-Personal Logo was selected from a “free icon provider” website. 
+Logical navigation was implemented with minimal layout. Lots of white-spacing was used and font size is increased if the device has gone past tablet size to increase readability. 
+All images were labelled with alternate text with a clear image description for hearing accessability. 
+
+Personal Logo was created from a “free icon provider” website. 
 
 ### Wireframes
 ![image of wireframe](docs/wireframe.png)
