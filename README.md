@@ -1,4 +1,5 @@
-#Alt-Portfolio Website
+Alt-Portfolio Website
+======
 
 [Portfolio Website](https://jamesphongduong.github.io/website/)  
 [GitHub Repo](https://github.com/jamesphongduong/website)
