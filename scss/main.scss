@@ -7,6 +7,9 @@
     $white: white;
 
     /* GENERAL STYLES */
+    html {
+        scroll-behavior: smooth;
+    }
     body {
         font-family: 'Nunito Sans', sans-serif;
         color:  black;
@@ -18,7 +21,6 @@
     }
     .name { 
         font-family: 'Playfair Display SC', serif;
-        letter-spacing: 4px;
     }
     .hImages {
         height: 10vh;
@@ -79,7 +81,7 @@
                     margin-top: 0px;
                 }
             }
-        #contact {
+            #contact {
                 font-size: 80%;
             }
         .icons {
@@ -127,10 +129,7 @@
     .album {
         display: grid;
         grid-template-columns: 100%;
-        // grid-gap: 1vh;
         justify-items: center;
-        // align-items: end;
-        // justify-content: space-evenly;
         position: relative;
         top: 0vh;
             img {
@@ -207,8 +206,11 @@
     // STANDARD IS MOBILE M - 375 X 546 
     /* TABLET 768 */
     @media only screen and (min-width: 768px) {
-        .sec {
+        .section {
             margin: 4vh 10vh;
+        }
+        .name {
+            letter-spacing: 4px;
         }
         .album {
             grid-template-columns: 1fr 1fr;
@@ -227,7 +229,7 @@
         }
     }
     @media only screen and (min-width: 1024px) {
-        .sec {
+        .section {
             margin: 4vh 15vh;
         }
         .album {
@@ -242,7 +244,7 @@
         }
     }
     @media only screen and (min-width: 1440px ) {
-        .sec { 
+        .section { 
             margin: 8vh 40vh;
         }
         .album {
